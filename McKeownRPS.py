@@ -284,6 +284,8 @@ octagon_image_rect.y = (500 ** 0)
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
 # Last lines define either the x-value, y-value, or both
+# "rock_image_rect.x" uses the subtraction operator
+# "rock_image_rect.y" uses the addition operator
 rock_image = pg.image.load(os.path.join(game_folder, 'therock.jpg')).convert()
 rock_image_rect = rock_image.get_rect()
 rock_image_rect.x = (5 - 5)
