@@ -31,8 +31,7 @@ BLUE = (0, 0, 255)
 # Tuples can't be changed; Lists can be changed
 objects = ["rock", "paper", "scissors"]
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 
@@ -45,8 +44,7 @@ def start_screen():
     screen.blit(scissors_image, scissors_image_rect)
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "rect" loads in the image
 # no "rect" defines the image
 # to treat an image as if it doesn't exist, I defined the location far outside the height and width such as -2050
@@ -80,8 +78,7 @@ def reset():
     screen.blit(restart_image, restart_image_rect)
     restart_image_rect.x = -2050
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -94,8 +91,7 @@ def win_screen():
     win_image_rect.y = 400
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -108,8 +104,7 @@ def tie_screen():
     tie_image_rect.y = 400
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -122,8 +117,7 @@ def lose_screen():
     lose_image_rect.y = 400
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -136,8 +130,7 @@ def restart_button():
     restart_image_rect.y = 475
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -149,8 +142,7 @@ def cpu_randchoice():
     print("The computer chose " + choice)
     return choice
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -163,8 +155,7 @@ def cpu_rock():
     cpu_rock_image_rect.y = 50
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -177,8 +168,7 @@ def cpu_paper():
     cpu_paper_image_rect.y = 150
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -191,8 +181,7 @@ def cpu_scissors():
     cpu_scissors_image_rect.y = 150
     pg.display.flip()
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -207,7 +196,7 @@ def player_rock():
     scissors_image_rect.x = -500
     pg.display.flip
 
-# "def" is a function that stores multiple lines of code in a personal variable
+# "def" is a module that stores multiple lines of code and functions
 # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
@@ -223,8 +212,7 @@ def player_scissors():
     paper_image_rect.x = -500
     pg.display.flip
 
-# "def" is a function that stores multiple lines of code in a personal variable
-# Best used when multiple lines of code have to be used multiple times
+# "def" is a module that stores multiple lines of code and functions # Best used when multiple lines of code have to be used multiple times
 # "screen" is a pygame exclusive variable that displays images or defined colors on screen
 # "pg.display.flip()" updates the display with "screen" images
 # "rect" loads in the image
@@ -285,36 +273,42 @@ restart_image_rect.x = -2050
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
 # Last lines define either the x-value, y-value, or both
+# "octagon_image_rect.x" uses the modulus operator
+# "octagon_image_rect.y" uses the exponentiation operator
 octagon_image = pg.image.load(os.path.join(
     game_folder, 'octagon.jpg')).convert()
 octagon_image_rect = octagon_image.get_rect()
-octagon_image_rect.x = 0
-octagon_image_rect.y = 0
+octagon_image_rect.x = (100 % 10)
+octagon_image_rect.y = (500 ** 0)
 
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
 # Last lines define either the x-value, y-value, or both
 rock_image = pg.image.load(os.path.join(game_folder, 'therock.jpg')).convert()
 rock_image_rect = rock_image.get_rect()
-rock_image_rect.x = 0
-rock_image_rect.y = 10
+rock_image_rect.x = (5 - 5)
+rock_image_rect.y = (0 + 10)
 
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
 # Last lines define either the x-value, y-value, or both
+# "scissors_image_rect.x" uses the subtraction operator
+# "scissors_image_rect.y" uses the addition operator
 scissors_image = pg.image.load(os.path.join(
     game_folder, 'scissors.jpg')).convert()
 scissors_image_rect = scissors_image.get_rect()
-scissors_image_rect.x = 0
-scissors_image_rect.y = 400
+scissors_image_rect.x = (5000000000000000 - 5000000000000000)
+scissors_image_rect.y = (200 + 200)
 
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
 # Last lines define either the x-value, y-value, or both
+# "paper_image_rect.x" uses the division operator
+# "paper_image_rect.y" uses the multiplication operator
 paper_image = pg.image.load(os.path.join(game_folder, 'paper.jpg')).convert()
 paper_image_rect = paper_image.get_rect()
-paper_image_rect.x = 250
-paper_image_rect.y = 400
+paper_image_rect.x = (500 / 2)
+paper_image_rect.y = (200 * 2)
 
 # First two lines loads in the image
 # "image_rect" defines the image in pygame
@@ -355,6 +349,7 @@ cpu_choice = ""
 # if statement; defines a variable's function and what will occur if variable is used
 # else statement; anything else that occurs besides the variable's function will lead to a defined statement
 # elif statement; specific else statement, if "if" statment does not occur, specific alternative is defined
+# specific pygame
 while running:
     clock.tick(FPS)
     for event in pg.event.get():
